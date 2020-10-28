@@ -31,9 +31,16 @@ namespace Module01
             */
 
             // run of task02
+            /*
             int[] arr = new int[] { 2, 3, -5, 0, 17, 2, 7, 9 };
             var task0702 = new Task0702(arr);
             Console.WriteLine($"Максимальный элемент: {task0702.MaxElement}");
+            */
+
+            // run of task03
+            double[] arr = new double[] { 1.0, 2.0, 3.0, 4.0, 3.0, 1.0, 2.0 };
+            var task0703 = new Task0703(arr);
+            Console.WriteLine(task0703.GetFirstMedian());
         }
 
         /// <summary>ProcessInput is the method for parsing user input into an integer number
