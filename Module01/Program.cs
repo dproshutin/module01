@@ -38,9 +38,15 @@ namespace Module01
             */
 
             // run of task03
+            /*
             double[] arr = new double[] { 1.0, 2.0, 3.0, 4.0, 3.0, 1.0, 2.0 };
             var task0703 = new Task0703(arr);
             Console.WriteLine(task0703.GetFirstMedian());
+            */
+
+            // run of task04
+            string output = Task0704.ConcatenateStringExcludingRepeats("abcdef", "defghklmn");
+            Console.WriteLine(output);
         }
 
         /// <summary>ProcessInput is the method for parsing user input into an integer number

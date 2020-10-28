@@ -11,7 +11,7 @@ namespace Module01.Tests
     [TestFixture]
 
     /// <summary>
-    /// The NUnit test class for task02
+    /// The NUnit test class for task03
     /// </summary>
     internal class Task0703Tests
     {
@@ -24,7 +24,7 @@ namespace Module01.Tests
         /// <summary>Method to check whether index of the element that divides the array into two parts is found correctly.
         /// The sum of elements in each part is the same.
         /// </summary>
-        /// /// <param name="arr">The given array of real numbers</param>
+        /// <param name="arr">The given array of real numbers</param>
         /// <returns>The index of the element</returns>
         public int CheckGetFirstMedian(double[] arr)
         {
