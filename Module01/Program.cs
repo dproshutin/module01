@@ -18,6 +18,8 @@ namespace Module01
         /// <param name="args">Used to pass text to be printed</param>
         public static void Main(string[] args)
         {
+            // run of task01
+            /*
             var task0701 = new Task0701();
             int number1, number2, firstBit, lastBit;
             number1 = ProcessInput("Please enter first number:");
@@ -26,6 +28,12 @@ namespace Module01
             lastBit = ProcessInput("Please enter last bit:");
             
             Console.WriteLine($"Result: {task0701.InsertNumber(number1, number2, firstBit, lastBit)}");
+            */
+
+            // run of task02
+            int[] arr = new int[] { 2, 3, -5, 0, 17, 2, 7, 9 };
+            var task0702 = new Task0702(arr);
+            Console.WriteLine($"Максимальный элемент: {task0702.MaxElement}");
         }
 
         /// <summary>ProcessInput is the method for parsing user input into an integer number
