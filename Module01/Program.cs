@@ -45,8 +45,14 @@ namespace Module01
             */
 
             // run of task04
+            /*
             string output = Task0704.ConcatenateStringExcludingRepeats("abcdef", "defghklmn");
             Console.WriteLine(output);
+            */
+
+            // run of task06
+            int[] array = Task0706.FilterDigit(7, 1, 2, 3, 4, 5, 6, 7, 68, 69, 70, 15, 17);
+            Console.WriteLine(string.Join(", ", array));
         }
 
         /// <summary>ProcessInput is the method for parsing user input into an integer number
