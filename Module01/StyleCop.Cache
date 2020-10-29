@@ -115,14 +115,11 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <project key="2027850059">
-    <configuration>TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1</configuration>
-  </project>
-  <sourcecode name="Task0704.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2020.07.03 11:36:24.000</styleCop>
       <settingsFile>2020.07.03 11:36:24.000</settingsFile>
-      <sourceFile>2020.10.28 22:26:16.509</sourceFile>
+      <sourceFile>2020.10.28 22:26:49.379</sourceFile>
       <parser>2020.07.03 11:36:24.000</parser>
       <StyleCop.CSharp.DocumentationRules>2020.07.03 11:36:24.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>360236098</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -141,11 +138,14 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+  <project key="2027850059">
+    <configuration>TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1</configuration>
+  </project>
+  <sourcecode name="Task0704.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2020.07.03 11:36:24.000</styleCop>
       <settingsFile>2020.07.03 11:36:24.000</settingsFile>
-      <sourceFile>2020.10.28 22:26:49.379</sourceFile>
+      <sourceFile>2020.10.29 11:02:07.570</sourceFile>
       <parser>2020.07.03 11:36:24.000</parser>
       <StyleCop.CSharp.DocumentationRules>2020.07.03 11:36:24.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>360236098</StyleCop.CSharp.DocumentationRules.FilesHashCode>

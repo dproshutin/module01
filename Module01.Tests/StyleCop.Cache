@@ -115,9 +115,6 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <project key="204627459">
-    <configuration>TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1</configuration>
-  </project>
   <sourcecode name="Task0703Tests.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2020.07.03 11:36:24.000</styleCop>
@@ -164,4 +161,7 @@
     </timestamps>
     <violations />
   </sourcecode>
+  <project key="204627459">
+    <configuration>TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1</configuration>
+  </project>
 </stylecopresultscache>

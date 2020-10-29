@@ -19,9 +19,8 @@ namespace Module01
         /// <returns>The concatenation of two strings, excluding repeated symbols</returns>
         public static string ConcatenateStringExcludingRepeats(string str1, string str2)
         {
-            int lengthOfRepeat = str2.Length;
             string resultOfConcat = null;
-            while (lengthOfRepeat >= 0)
+            for (int lengthOfRepeat = str2.Length; lengthOfRepeat >= 0; lengthOfRepeat--)
             {
                 string repeat = str2.Substring(0, lengthOfRepeat);
                 if (str1.EndsWith(repeat))
@@ -29,8 +28,6 @@ namespace Module01
                     resultOfConcat = str1 + str2.Substring(lengthOfRepeat);
                     break;
                 }
-
-                lengthOfRepeat--;
             }
 
             return resultOfConcat;
