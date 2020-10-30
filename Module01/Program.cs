@@ -50,9 +50,15 @@ namespace Module01
             Console.WriteLine(output);
             */
 
+            // run of task05
+            int result = Task0705.FindNextBiggerNumber(3456432);
+            Console.WriteLine(result);
+
             // run of task06
+            /*
             int[] array = Task0706.FilterDigit(7, 1, 2, 3, 4, 5, 6, 7, 68, 69, 70, 15, 17);
             Console.WriteLine(string.Join(", ", array));
+            */
         }
 
         /// <summary>ProcessInput is the method for parsing user input into an integer number
