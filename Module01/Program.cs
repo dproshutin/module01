@@ -63,7 +63,16 @@ namespace Module01
             */
 
             // run of task0801
+            /*
             Console.WriteLine(Task0801.FindNthRoot(8, 3, 0.0001));
+            */
+
+            // run of task0802
+            int[][] myJaggedArray = new int[3][];
+            myJaggedArray[0] = new int[] { -1, 2, 3, 0 }; // sum = 4
+            myJaggedArray[1] = new int[] { 7, 8, -5, 16 }; // sum = 26 
+            myJaggedArray[2] = new int[] { 1, -1, 2, -4, 7, 8 }; // sum = 13
+            Task0802.BubbleSortForJaggedArray(myJaggedArray, 1, 2);
         }
 
         /// <summary>ProcessInput is the method for parsing user input into an integer number
